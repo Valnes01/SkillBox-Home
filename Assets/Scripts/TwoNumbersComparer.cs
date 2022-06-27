@@ -13,9 +13,8 @@ public class TwoNumbersComparer : MonoBehaviour
     int numCom2;
     private void Start()
     {
-        
+
     }
-    
     private void onConvertNum() //метод для конвертации введеных чисел, из текста в числа
     {
         numCom1 = Convert.ToInt32(numComparer1.text);

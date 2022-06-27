@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-
 public class Calculator : MonoBehaviour
 {
     [SerializeField] private InputField numOne;
@@ -14,13 +13,11 @@ public class Calculator : MonoBehaviour
     {
         resultCal.text = "Результат";
     }
-    
     private void onConvertNum()
     {
         numb1 = Convert.ToInt32(numOne.text);
         numb2 = Convert.ToInt32(numTwo.text);
     }
-
     public void onChecClicedSum()
     {
         onConvertNum();
