@@ -43,7 +43,7 @@ public class Home5 : MonoBehaviour
     public void OnFirstOccurrence() //3
     {
         int[] array = { 81, 22, 13, 34, 10, 34, 15, 26, 71, 68 };
-        int num1 = 343;
+        int num1 = 34;
         int num2 = 55;
         for (int i = 0; i < array.Length; i++)
         {
